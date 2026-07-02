@@ -1,4 +1,4 @@
-package com.example.examplemod.platform.services;
+package denizen.darkengine.platform.services;
 
 public interface IPlatformHelper {
 

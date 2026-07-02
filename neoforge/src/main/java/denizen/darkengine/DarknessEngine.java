@@ -1,12 +1,12 @@
-package com.example.examplemod;
+package denizen.darkengine;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 
 @Mod(Constants.MOD_ID)
-public class ExampleMod {
+public class DarknessEngine {
 
-    public ExampleMod(IEventBus eventBus) {
+    public DarknessEngine(IEventBus eventBus) {
 
         // This method is invoked by the NeoForge mod loader when it is ready
         // to load your mod. You can access NeoForge and Common code in this
@@ -15,6 +15,5 @@ public class ExampleMod {
         // Use NeoForge to bootstrap the Common mod.
         Constants.LOG.info("Hello NeoForge world!");
         CommonClass.init();
-
     }
 }

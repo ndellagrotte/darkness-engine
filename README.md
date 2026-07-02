@@ -1,6 +1,8 @@
-# MultiLoader Template
+# Darkness Engine
 
-This project provides a Gradle project template that can compile Minecraft mods for multiple modloaders using a common project for the sources. This project does not require any third party libraries or dependencies. If you have any questions or want to discuss the project, please join our [Discord](https://discord.myceliummod.network).
+Bring torches! A client-side mod that plunges the Overworld into total darkness by zeroing out the lightmap's sky brightness and ambient color. Block light (torches, lava, etc.) still works — you'll need it.
+
+This project is built on the MultiLoader Template, a Gradle project template that can compile Minecraft mods for multiple modloaders using a common project for the sources. This project does not require any third party libraries or dependencies. If you have any questions or want to discuss the template, please join the [Discord](https://discord.myceliummod.network).
 
 ## Getting Started
 

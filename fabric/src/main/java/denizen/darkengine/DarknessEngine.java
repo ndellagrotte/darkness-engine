@@ -1,8 +1,8 @@
-package com.example.examplemod;
+package denizen.darkengine;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class DarknessEngine implements ModInitializer {
 
     @Override
     public void onInitialize() {

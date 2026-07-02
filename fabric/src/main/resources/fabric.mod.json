@@ -12,11 +12,11 @@
         "sources": "https://github.com/FabricMC/fabric-example-mod"
     },
     "license": "${license}",
-    "icon": "${mod_id}.png",
-    "environment": "*",
+    "icon": "assets/${mod_id}/icon.png",
+    "environment": "client",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+            "denizen.darkengine.DarknessEngine"
         ]
     },
     "mixins": [
@@ -28,9 +28,5 @@
         "fabric-api": "*",
         "minecraft": "~${minecraft_version}",
         "java": ">=${java_version}"
-    },
-    "suggests": {
-        "another-mod": "*"
     }
 }
-  
